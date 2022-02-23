@@ -45,14 +45,14 @@ class BlogPostTemplate extends React.Component {
                 <ul className={styles.articleNavigation}>
                   {previous && (
                     <li>
-                      <Link to={`/blog/${previous.slug}`} rel="prev">
+                      <Link to={`/${previous.slug}`} rel="prev">
                         ← {previous.title}
                       </Link>
                     </li>
                   )}
                   {next && (
                     <li>
-                      <Link to={`/blog/${next.slug}`} rel="next">
+                      <Link to={`/${next.slug}`} rel="next">
                         {next.title} →
                       </Link>
                     </li>

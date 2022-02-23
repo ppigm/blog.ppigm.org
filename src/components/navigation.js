@@ -12,7 +12,7 @@ const Navigation = () => (
     <ul className={styles.navigation}>
       <li className={styles.navigationItem}>
         <Link to="/" activeClassName="active">
-          Entries
+          All Entries
         </Link>
       </li>
     </ul>
