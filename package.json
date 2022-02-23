@@ -1,11 +1,11 @@
 {
-  "name": "contentful-starter-gatsby-blog",
-  "description": "Contentful Gatsby Starter Blog",
+  "name": "ppigm-blog",
+  "description": "PPI Greater Manchester Blog",
   "private": true,
-  "version": "0.0.1",
-  "author": "Contentful <opensource@contentful.com>",
+  "version": "1.0.0",
+  "author": "PPIGM Tech Team <tech@ppigm.org>",
   "bugs": {
-    "url": "https://github.com/contentful/starter-gatsby-blog/issues"
+    "url": "https://github.com/ppigm/blog.ppigm.org/issues"
   },
   "dependencies": {
     "gatsby": "^4.0.0",
