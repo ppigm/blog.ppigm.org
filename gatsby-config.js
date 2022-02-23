@@ -36,8 +36,8 @@ if (!spaceId || !accessToken) {
 
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Contentful Starter",
-    description: "Official Contentful Gatsby Starter",
+    title: "PPI Greater Manchester Blogs",
+    description: "Official Blog Website for PPI Greater Manchester",
   },
   pathPrefix: "/gatsby-contentful-starter",
   plugins: [
