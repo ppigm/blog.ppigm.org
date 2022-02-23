@@ -2,6 +2,12 @@ const path = require('path')
 
 exports.createPages = async ({ graphql, actions, reporter }) => {
   const { createPage } = actions
+  const { createRedirect } = actions;
+
+  createRedirect({
+    fromPath: `/entry`,
+    toPath: `/`,
+  });
 
   // Define a template for blog post
   const blogPost = path.resolve('./src/templates/blog-post.js')
@@ -40,7 +46,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
         index === posts.length - 1 ? null : posts[index + 1].slug
 
       createPage({
-        path: `/blog/${post.slug}/`,
+        path: `/entry/${post.slug}/`,
         component: blogPost,
         context: {
           slug: post.slug,
